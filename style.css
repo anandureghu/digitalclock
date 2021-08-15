@@ -1,0 +1,45 @@
+html,body{
+    margin:0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    background-color: #1D2025;
+}
+
+.clock{
+    font-family: 'Qahiri';
+    font-size: 10vw;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F5F7FA;
+    width: 100vw;
+}
+
+.float{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    margin: 20px auto;
+    transform: translate(-50%);
+}
+
+.float i{
+    margin: 0px 10px;
+    font-size: 30px;
+}
+
+.color{
+    color: #FFA000;
+}
+
+.font{
+    color: rgb(0,137,123);
+}
+
+@media only screen and (max-width: 968px){
+    .clock{
+        font-size: 13vw;
+    }
+}
